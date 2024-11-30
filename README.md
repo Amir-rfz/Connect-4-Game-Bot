@@ -55,7 +55,7 @@ The game's GUI visualizes:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/connect4-minimax.git
+   git clone https://github.com/Amir-rfz/Connect-4-Game-Bot
    cd connect4-minimax
    ```
 

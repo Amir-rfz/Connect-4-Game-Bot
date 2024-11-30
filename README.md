@@ -2,6 +2,18 @@
 
 This repository contains an implementation of the classic Connect 4 game enhanced with an AI opponent powered by the Minimax algorithm. The AI includes alpha-beta pruning for improved performance and strategic decision-making. A simple yet engaging graphical user interface (GUI) is implemented using Pygame.
 
+<p align="center">
+  <img src="https://github.com/Amir-rfz/Connect-4-Game-Bot/blob/main/result.gif" 
+       alt="Result GIF" 
+       style="width: 450px; border: 1px solid #ddd; border-radius: 8px;">
+</p>
+<p align="center" style="font-size: 14px; color: #555;">
+  Result of the Minimax Algorithm with depth 5
+</p>
+<p align="center" style="font-size: 14px; color: #555;">
+  Red is the agent and yellow is computer
+</p>
+
 ## Features
 
 - **Game Mechanics**: Classic Connect 4 game rules where two players (Human vs AI) take turns dropping pieces into a grid.
@@ -57,19 +69,10 @@ The game's GUI visualizes:
    python connect4.py
    ```
 
-## Gameplay Video
-
-Check out the game in action!  
-*(Upload your gameplay video and provide a link or embed it here.)*
-
 ## File Structure
 
 - `connect4.py`: Main game implementation including the Minimax AI and Pygame UI.
 - `README.md`: Project documentation.
-
-## Screenshots
-
-*(Add screenshots showcasing the game grid, player moves, and winner announcement.)*
 
 ## Contributing
 

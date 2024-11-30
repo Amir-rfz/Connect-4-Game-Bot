@@ -1,6 +1,6 @@
 # Connect 4 with Minimax Algorithm
 
-This repository contains an implementation of the classic Connect 4 game enhanced with an AI opponent powered by the Minimax algorithm. The AI includes alpha-beta pruning for improved performance and strategic decision-making. A simple yet engaging graphical user interface (GUI) is implemented using Pygame.
+This repository contains an implementation of the classic Connect 4 game enhanced with an agent opponent powered by the Minimax algorithm. The agent includes alpha-beta pruning for improved performance and strategic decision-making. A simple yet engaging graphical user interface (GUI) is implemented using Pygame.
 
 <p align="center">
   <img src="https://github.com/Amir-rfz/Connect-4-Game-Bot/blob/main/result.gif" 
@@ -11,20 +11,20 @@ This repository contains an implementation of the classic Connect 4 game enhance
   Result of the Minimax Algorithm with depth 5
 </p>
 <p align="center" style="font-size: 14px; color: #555;">
-  Red is the agent and yellow is computer
+  Red is the agent and yellow is the computer
 </p>
 
 ## Features
 
-- **Game Mechanics**: Classic Connect 4 game rules where two players (Human vs AI) take turns dropping pieces into a grid.
+- **Game Mechanics**: Classic Connect 4 game rules where two players (computer vs agent) take turns dropping pieces into a grid.
 - **Minimax Algorithm**:
-  - Depth-limited search for AI decision-making.
+  - Depth-limited search for agent decision-making.
   - Alpha-beta pruning to optimize computational efficiency.
-  - Configurable AI difficulty via adjustable depth.
+  - Configurable agent difficulty via adjustable depth.
 - **Graphical User Interface**:
   - Colorful and responsive UI created with Pygame.
   - Displays game grid, moves, and winner announcement.
-- **Dynamic AI Strategy**:
+- **Dynamic agent Strategy**:
   - Combines deterministic Minimax moves with randomness for unpredictable gameplay.
 
 ## Requirements
@@ -36,7 +36,7 @@ This repository contains an implementation of the classic Connect 4 game enhance
 ## How It Works
 
 ### Minimax Algorithm
-The AI uses the Minimax algorithm with alpha-beta pruning to evaluate all possible moves and choose the optimal one. The algorithm:
+The agent uses the Minimax algorithm with alpha-beta pruning to evaluate all possible moves and choose the optimal one. The algorithm:
 1. Explores possible game states up to a defined depth.
 2. Scores each state based on the likelihood of winning.
 3. Applies alpha-beta pruning to eliminate branches that cannot affect the final decision, saving computation time.
@@ -44,12 +44,12 @@ The AI uses the Minimax algorithm with alpha-beta pruning to evaluate all possib
 ### Graphical User Interface
 The game's GUI visualizes:
 - The board's current state.
-- Player and AI moves.
+- Player and agent moves.
 - A clear message announcing the winner or a draw.
 
 ### Adjustable Parameters
-- **AI Depth**: Modify the `minimax_depth` parameter to control the AI's difficulty level.
-- **Randomness**: Add randomness to the AI's moves by tweaking the `randomness_percent` parameter.
+- **agent Depth**: Modify the `minimax_depth` parameter to control the agent's difficulty level.
+- **Randomness**: Add randomness to the agent's moves by tweaking the `randomness_percent` parameter.
 
 ## How to Run
 
@@ -71,7 +71,7 @@ The game's GUI visualizes:
 
 ## File Structure
 
-- `connect4.py`: Main game implementation including the Minimax AI and Pygame UI.
+- `connect4.py`: Main game implementation including the Minimax agent and Pygame UI.
 - `README.md`: Project documentation.
 
 ## Contributing
